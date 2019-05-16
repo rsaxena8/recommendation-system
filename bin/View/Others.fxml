@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="455.0" prefWidth="709.0" style="-fx-background-color: #9C2B27;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.OtherRequestController">
+   <children>
+      <Label layoutX="143.0" layoutY="29.0" prefHeight="41.0" prefWidth="382.0" text="Other Recommendations">
+         <font>
+            <Font size="18.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </Label>
+      <TextField fx:id="profEmail_Other" layoutX="292.0" layoutY="120.0" />
+      <Label layoutX="59.0" layoutY="117.0" prefHeight="25.0" prefWidth="149.0" text="Professor's  Email">
+         <effect>
+            <Glow />
+         </effect></Label>
+      <TextArea fx:id="Desc_Other" layoutX="59.0" layoutY="230.0" prefHeight="150.0" prefWidth="566.0" />
+      <Label layoutX="59.0" layoutY="196.0" prefHeight="25.0" prefWidth="344.0" text="Describe what are you looking for?">
+         <effect>
+            <Glow />
+         </effect></Label>
+      <Button fx:id="Sub_Other" layoutX="537.0" layoutY="408.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="83.0" text="Submit" />
+      <Label fx:id="close_other" layoutX="661.0" layoutY="21.0" prefHeight="15.0" prefWidth="15.0" text="X" />
+      <Button fx:id="back_Other" layoutX="59.0" layoutY="408.0" mnemonicParsing="false" onAction="#back_Other" prefHeight="25.0" prefWidth="73.0" text="Back" />
+   </children>
+</AnchorPane>

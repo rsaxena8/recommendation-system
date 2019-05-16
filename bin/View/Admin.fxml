@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="431.0" prefWidth="661.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StudentController">
+   <children>
+      
+     
+      <Button fx:id="job_btn" layoutX="85.0" layoutY="116.0" mnemonicParsing="false" onAction="#job_btn" prefHeight="26.0" prefWidth="141.0" text="Job/Internship" />
+      <Button fx:id="lor_btn" layoutX="399.0" layoutY="117.0" mnemonicParsing="false" onAction="#lor_btn" prefHeight="26.0" prefWidth="148.0" text="LOR for MS/BS" />
+   <Button fx:id="admin_closeLbl" layoutX="524.0" layoutY="27.0" mnemonicParsing="false" onAction="#admin_closeLbl" text="X" />
+      <Button fx:id="iit_pos" layoutX="85.0" layoutY="242.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="141.0" text="Positions in IIT" />
+   </children>
+</AnchorPane>

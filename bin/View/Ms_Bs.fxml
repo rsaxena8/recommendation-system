@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="499.0" prefWidth="705.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.LorController">
+   <children>
+      <Label layoutX="78.0" layoutY="96.0" prefHeight="30.0" prefWidth="146.0" text="Currently Pursuing:">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="85.0" layoutY="14.0" prefHeight="54.0" prefWidth="430.0" text="Recommendation for Higher Studies">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="166.0" prefHeight="25.0" prefWidth="84.0" text="Course Name" />
+      <TextField fx:id="course1" layoutX="77.0" layoutY="191.0" />
+      <Label layoutX="268.0" layoutY="167.0" prefHeight="25.0" prefWidth="108.0" text="Professor" />
+      <TextField fx:id="p1" layoutX="256.0" layoutY="191.0" />
+      <TextField fx:id="course2" layoutX="77.0" layoutY="265.0" />
+      <TextField fx:id="p2" layoutX="256.0" layoutY="265.0" />
+      <Label layoutX="77.0" layoutY="240.0" prefHeight="25.0" prefWidth="108.0" text="Course Name" />
+      <Label layoutX="254.0" layoutY="239.0" prefHeight="25.0" prefWidth="90.0" text="Professor" />
+      <Label layoutX="77.0" layoutY="317.0" prefHeight="25.0" prefWidth="90.0" text="Course Name" />
+      <TextField fx:id="course3" layoutX="77.0" layoutY="342.0" />
+      <TextField fx:id="p3" layoutX="256.0" layoutY="342.0" />
+      <Label layoutX="254.0" layoutY="317.0" prefHeight="25.0" prefWidth="84.0" text="Professor" />
+      <Button fx:id="job_backBtn" layoutX="78.0" layoutY="383.0" mnemonicParsing="false" onAction="#job_backBtn" prefHeight="25.0" prefWidth="67.0" text="Back" />
+      <Button fx:id="job_SubmitBtn" layoutX="541.0" layoutY="383.0" mnemonicParsing="false" onAction="#job_SubmitBtn" prefHeight="25.0" prefWidth="67.0" text="Submit" />
+      <Button fx:id="job_closeLbl" layoutX="658.0" layoutY="14.0" mnemonicParsing="false" onAction="#job_closeLbl" prefHeight="13.0" prefWidth="17.0" text="X" />
+      <ComboBox fx:id="term1_combobox" layoutX="459.0" layoutY="191.0" prefWidth="150.0" promptText="Select Term" />
+      <ComboBox fx:id="term2_combobox" layoutX="459.0" layoutY="265.0" prefWidth="150.0" promptText="Select Term" />
+      <ComboBox fx:id="term3_combobox" layoutX="459.0" layoutY="342.0" prefWidth="150.0" promptText="Select Term" />
+      <ComboBox fx:id="level_combobox" layoutX="247.0" layoutY="99.0" prefHeight="25.0" prefWidth="173.0" promptText="Select Level of Study" />
+   </children>
+</AnchorPane>

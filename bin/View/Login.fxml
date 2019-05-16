@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane onMouseClicked="#onClick_close" prefHeight="399.0" prefWidth="744.0" style="-fx-background-color: #20120F;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.MainController">
+   <children>
+      <AnchorPane layoutX="384.0" layoutY="51.0" prefHeight="278.0" prefWidth="271.0" style="-fx-background-color: #9C2B27;">
+         <children>
+            <TextField fx:id="txtUser" layoutX="48.0" layoutY="92.0" opacity="0.65" promptText="User Name" style="-fx-background-color: #9C2B27;">
+               <font>
+                  <Font name="System Bold Italic" size="12.0" />
+               </font></TextField>
+            <PasswordField fx:id="txtPass" layoutX="47.0" layoutY="127.0" opacity="0.61" promptText="Password" style="-fx-background-color: #9C2B27;" />
+            <Button fx:id="login_cont" layoutX="74.0" layoutY="175.0" mnemonicParsing="false" onAction="#onClick_Login" prefHeight="25.0" prefWidth="96.0" style="-fx-background-color: #E45652;" text="Login" />
+            <Label fx:id="labelSI" layoutX="110.0" layoutY="38.0" prefHeight="27.0" prefWidth="70.0" text="Sign In" textFill="#e1cece">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="fpButton" layoutX="57.0" layoutY="226.0" mnemonicParsing="false" onAction="#onClick_fpButton" prefHeight="27.0" prefWidth="129.0" style="-fx-background-color: #9C2B27;" text="Forgot Password?" textFill="#c9c2c2" />
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="393.0" fitWidth="368.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="397.0" fitWidth="384.0" layoutX="-2.0" opacity="0.3" pickOnBounds="true">
+         <image>
+            <Image url="@img3.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="24.0" layoutY="69.0" prefHeight="90.0" prefWidth="368.0" text="Welcome To The Recommendation System" textFill="#eeebeb">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="signUp_cont" layoutX="24.0" layoutY="170.0" mnemonicParsing="false" onAction="#onClick_SignUp" prefHeight="27.0" prefWidth="129.0" style="-fx-background-color: #9C2B27;" text="Sign Up" textFill="#f2dcdc" />
+      <Button fx:id="close_cont" layoutX="662.0" layoutY="14.0" mnemonicParsing="false" onAction="#onClick_close" prefHeight="15.0" prefWidth="24.0" style="-fx-background-color: #20120F;" text="X" textFill="#d7c0c0">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>

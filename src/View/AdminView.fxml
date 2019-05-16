@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="444.0" prefWidth="607.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.AdminController">
+   <children>
+      <Button fx:id="admin_closeLbl" layoutX="524.0" layoutY="27.0" mnemonicParsing="false" onAction="#admin_closeLbl" text="X" />
+      <Label layoutX="31.0" layoutY="31.0" prefHeight="31.0" prefWidth="275.0" text="Recommendation Requests">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="53.0" layoutY="115.0" prefHeight="31.0" prefWidth="201.0" text="New Requests for Job/Internships" />
+      <Label layoutX="53.0" layoutY="180.0" prefHeight="31.0" prefWidth="195.0" text="New Requests for Higher Education" />
+      <Label layoutX="57.0" layoutY="254.0" prefHeight="31.0" prefWidth="195.0" text="Existing Users" />
+      <Button fx:id="Job_req" layoutX="335.0" layoutY="118.0" mnemonicParsing="false" onAction="#Job_req" prefHeight="25.0" prefWidth="97.0" text="Show Count" />
+      <Button fx:id="he_req" layoutX="335.0" layoutY="182.0" mnemonicParsing="false" onAction="#he_req" prefHeight="25.0" prefWidth="97.0" text="Show Count" />
+      <Button fx:id="user_req" layoutX="335.0" layoutY="254.0" mnemonicParsing="false" onAction="#user_req" prefHeight="25.0" prefWidth="97.0" text="Show Count" />
+      <TextField fx:id="job" layoutX="444.0" layoutY="118.0" prefHeight="25.0" prefWidth="97.0" />
+      <TextField fx:id="msBs" layoutX="444.0" layoutY="183.0" prefHeight="25.0" prefWidth="90.0" />
+      <TextField fx:id="users" layoutX="444.0" layoutY="255.0" prefHeight="25.0" prefWidth="97.0" />
+   </children>
+</AnchorPane>

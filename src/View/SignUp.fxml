@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pass" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="538.0" prefWidth="728.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.SignUpController">
+   <children>
+      <TextField fx:id="name" layoutX="338.0" layoutY="83.0" />
+      <TextField fx:id="lname" layoutX="338.0" layoutY="137.0" />
+      <TextField fx:id="email" layoutX="338.0" layoutY="200.0" />
+      <TextField fx:id="dep" layoutX="338.0" layoutY="260.0" />
+       
+        
+        
+      <Label layoutX="88.0" layoutY="83.0" prefHeight="25.0" prefWidth="130.0" text="First Name" />
+      <Label layoutX="88.0" layoutY="133.0" prefHeight="25.0" prefWidth="120.0" text="Last Name" />
+      <Label layoutX="88.0" layoutY="196.0" prefHeight="25.0" prefWidth="120.0" text="School Email Id" />
+      <Label layoutX="90.0" layoutY="262.0" prefHeight="25.0" prefWidth="130.0" text="Department" />
+      <Label layoutX="95.0" layoutY="319.0" prefHeight="17.0" prefWidth="111.0" text="Password" />
+      <Button fx:id="reg_SignUp" layoutX="524.0" layoutY="477.0" mnemonicParsing="false" onAction="#reg_SignUp" prefHeight="25.0" prefWidth="89.0" text="Register" />
+      <Label layoutX="78.0" layoutY="23.0" prefHeight="48.0" prefWidth="497.0" text="SignUp">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+       <Button fx:id="job_closeLbl" layoutX="614.0" layoutY="14.0" mnemonicParsing="false" onAction="#close" prefHeight="13.0" prefWidth="17.0" text="X" />
+     
+      <Label layoutX="95.0" layoutY="370.0" text="A-Number" />
+      <Label layoutX="95.0" layoutY="420.0" text="UserName" />
+      <TextField fx:id="anum" layoutX="338.0" layoutY="370.0" />
+      <TextField fx:id="username" layoutX="338.0" layoutY="420.0" />
+      <PasswordField fx:id="passcode" layoutX="338.0" layoutY="320.0" />
+   </children>
+</AnchorPane>

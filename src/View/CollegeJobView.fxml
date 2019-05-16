@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="731.0" style="-fx-background-color: #9C2B27;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.StudentController">
+   <children>
+      <Label layoutX="109.0" layoutY="32.0" prefHeight="59.0" prefWidth="521.0" text="Recommendation for Positions in Illinois Tech or Company">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="107.0" prefHeight="33.0" prefWidth="151.0" text="Professor's Email" underline="true" wrapText="true">
+         <effect>
+            <Glow />
+         </effect></Label>
+      <Label layoutX="50.0" layoutY="158.0" prefHeight="22.0" prefWidth="115.0" text="Position Title" underline="true" wrapText="true">
+         <effect>
+            <Glow />
+         </effect></Label>
+      <TextArea fx:id="explain" layoutX="37.0" layoutY="224.0" prefHeight="136.0" prefWidth="658.0" />
+      <Label layoutX="50.0" layoutY="196.0" prefHeight="22.0" prefWidth="230.0" text="Why this position/job ? Describe briefly." textOverrun="WORD_ELLIPSIS" underline="true" wrapText="true">
+         <effect>
+            <Glow />
+         </effect></Label>
+      <TextField fx:id="email" layoutX="201.0" layoutY="111.0" prefHeight="25.0" prefWidth="202.0" />
+      <TextField fx:id="position" layoutX="201.0" layoutY="157.0" prefHeight="25.0" prefWidth="202.0" />
+      <Button fx:id="submit" layoutX="549.0" layoutY="384.0" mnemonicParsing="false" onAction="#submit" prefHeight="25.0" prefWidth="76.0" text="Submit" textFill="#791a1a" />
+      <Button fx:id="close" layoutX="678.0" layoutY="14.0" mnemonicParsing="false" onAction="#close" prefHeight="10.0" prefWidth="19.0" style="-fx-background-color: #9C2B27;" text="X" />
+      <Button fx:id="back" layoutX="65.0" layoutY="384.0" mnemonicParsing="false" onAction="#back" text="Back" textFill="#941717" />
+   </children>
+</AnchorPane>
